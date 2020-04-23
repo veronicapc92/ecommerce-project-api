@@ -10,7 +10,7 @@ const Customer = mongoose.model(
   })
 );
 
-validateCustomer = (customer) => {
+function validateCustomer(customer) {
   const schema = {
     username: Joi.string().required(),
     name: Joi.string().required(),
@@ -18,7 +18,7 @@ validateCustomer = (customer) => {
   };
 
   return Joi.validate(customer, schema);
-};
+}
 
 exports.Customer = Customer;
 exports.validate = validateCustomer;
