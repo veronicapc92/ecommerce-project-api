@@ -1,6 +1,8 @@
 const mongoose = require("mongoose");
-const womenProductTypes = require("./routes/womenProductTypes");
+const productTypes = require("./routes/productTypes");
 const customers = require("./routes/customers");
+const products = require("./routes/products");
+const users = require("./routes/users");
 const express = require("express");
 const app = express();
 
@@ -13,8 +15,10 @@ mongoose
   .catch((err) => console.err("Could not connect to MongoDB...", err));
 
 app.use(express.json());
-app.use("/api/womenProductTypes", womenProductTypes);
+app.use("/api/womenProductTypes", productTypes);
 app.use("/api/customers", customers);
+app.use("/api/womeProducts", products);
+app.use("/api/users", users);
 
 const port = process.env.PORT || 8000;
 app.listen(port, () => console.log(`Listening on port ${port}...`));
