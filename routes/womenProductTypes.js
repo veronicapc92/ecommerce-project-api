@@ -1,14 +1,6 @@
-const Joi = require("joi");
-const mongoose = require("mongoose");
+const { WomenProductType, validate } = require("../models/womenProductTypes");
 const express = require("express");
 const router = express.Router();
-
-const WomenProductType = mongoose.model(
-  "womenProductType",
-  new mongoose.Schema({
-    name: { type: String, required: true, minlength: 1, maxlength: 50 },
-  })
-);
 
 router.get("/", async (req, res) => {
   const womenProductTypes = await WomenProductType.find();
@@ -25,7 +17,7 @@ router.get("/:id", async (req, res) => {
 });
 
 router.post("/", async (req, res) => {
-  const { error } = validateProductType(req.body);
+  const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
   let womenProductType = new WomenProductType({ name: req.body.name });
@@ -35,7 +27,7 @@ router.post("/", async (req, res) => {
 });
 
 router.put("/:id", async (req, res) => {
-  const { error } = validateProductType(req.body);
+  const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
   const womenProductType = await WomenProductType.findByIdAndUpdate(
@@ -59,13 +51,5 @@ router.delete("/:id", async (req, res) => {
 
   res.send(womenProductType);
 });
-
-function validateProductType(productType) {
-  const schema = {
-    name: Joi.string().min(3).required(),
-  };
-
-  return Joi.validate(productType, schema);
-}
 
 module.exports = router;
