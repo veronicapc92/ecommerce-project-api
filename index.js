@@ -1,3 +1,4 @@
+const cors = require("cors");
 const config = require("config");
 const mongoose = require("mongoose");
 const productTypes = require("./routes/productTypes");
@@ -22,9 +23,10 @@ mongoose
   .catch((err) => console.err("Could not connect to MongoDB...", err));
 
 app.use(express.json());
-app.use("/api/womenProductTypes", productTypes);
+app.use(cors());
+app.use("/api/productTypes", productTypes);
 app.use("/api/customers", customers);
-app.use("/api/womeProducts", products);
+app.use("/api/products", products);
 app.use("/api/users", users);
 app.use("/api/auth", auth);
 

@@ -1,6 +1,5 @@
 const Joi = require("joi");
 const mongoose = require("mongoose");
-const { productTypeSchema } = require("./productType");
 
 const Product = mongoose.model(
   "Product",
@@ -9,7 +8,7 @@ const Product = mongoose.model(
     price: { type: Number, required: true, minlength: 1, maxlength: 4 },
     liked: { type: Boolean, required: true },
     link: { type: String, required: true },
-    type: { type: productTypeSchema, required: true },
+    type: { type: String, required: true },
   })
 );
 
