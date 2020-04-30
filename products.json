@@ -1,74 +1,74 @@
 [
   {
-    "id": 1,
     "name": "Cigarette trousers",
     "price": 23.99,
     "type": "trousers",
     "liked": false,
-    "link": "https://i.postimg.cc/5tBNTgNC/blue-pants.png"
+    "link": "https://i.postimg.cc/5tBNTgNC/blue-pants.png",
+    "count": 0
   },
   {
-    "id": 2,
     "name": "Skinny high jeans",
     "price": 19.99,
     "type": "jeans",
     "liked": false,
-    "link": "https://i.postimg.cc/66j6kywY/grey-jean.png"
+    "link": "https://i.postimg.cc/66j6kywY/grey-jean.png",
+    "count": 0
   },
   {
-    "id": 3,
     "name": "Straight cut blazer",
     "price": 25.99,
     "type": "blazers",
     "liked": false,
-    "link": "https://i.postimg.cc/NMbGf0XG/pink-blazer.png"
+    "link": "https://i.postimg.cc/NMbGf0XG/pink-blazer.png",
+    "count": 0
   },
   {
-    "id": 4,
     "name": "Cropped hooded jacket",
     "price": 17.99,
     "type": "sweatshirts",
     "liked": false,
-    "link": "https://i.postimg.cc/K8gYrF6Q/pink-hoodie.png"
+    "link": "https://i.postimg.cc/K8gYrF6Q/pink-hoodie.png",
+    "count": 0
   },
   {
-    "id": 5,
     "name": "V-neck cotton dress",
     "price": 16.99,
     "type": "dresses",
     "liked": false,
-    "link": "https://i.postimg.cc/LXm6pPn0/red-dress.png"
+    "link": "https://i.postimg.cc/LXm6pPn0/red-dress.png",
+    "count": 0
   },
   {
-    "id": 6,
-    "name": "Semi-transparent cotton shirt",
+    "name": "Cotton shirt",
     "price": 14.99,
     "type": "shirts",
     "liked": false,
-    "link": "https://i.postimg.cc/1XtmgZ0G/squares-shirt.png"
+    "link": "https://i.postimg.cc/1XtmgZ0G/squares-shirt.png",
+    "count": 0
   },
   {
-    "id": 7,
     "name": "Linen T-shirt",
     "price": 9.99,
     "type": "tops",
     "liked": false,
-    "link": "https://i.postimg.cc/90nWZN1v/white-tshirt.png"
+    "link": "https://i.postimg.cc/90nWZN1v/white-tshirt.png",
+    "count": 0
   },
   {
-    "id": 8,
     "name": "Knitted cardigan",
     "price": 25.99,
     "type": "cardigans",
     "liked": false,
-    "link": "https://i.postimg.cc/xTXjnn1Y/yellow-cardigan.png"
+    "link": "https://i.postimg.cc/xTXjnn1Y/yellow-cardigan.png",
+    "count": 0
   },
   {
-    "id": 9,
     "name": "Pleated skirt",
     "price": 21.99,
     "type": "skirts",
     "liked": false,
-    "link": "https://i.postimg.cc/2SvzLGWK/yellow-skirt.png"
+    "link": "https://i.postimg.cc/2SvzLGWK/yellow-skirt.png",
+    "count": 0
   }
 ]
