@@ -5,7 +5,8 @@
     "type": "trousers",
     "liked": false,
     "link": "https://i.postimg.cc/5tBNTgNC/blue-pants.png",
-    "count": 0
+    "count": 0,
+    "productRoute": "cigarette-trousers"
   },
   {
     "name": "Skinny high jeans",
@@ -13,7 +14,8 @@
     "type": "jeans",
     "liked": false,
     "link": "https://i.postimg.cc/66j6kywY/grey-jean.png",
-    "count": 0
+    "count": 0,
+    "productRoute": "skinny-high-jeans"
   },
   {
     "name": "Straight cut blazer",
@@ -21,7 +23,8 @@
     "type": "blazers",
     "liked": false,
     "link": "https://i.postimg.cc/NMbGf0XG/pink-blazer.png",
-    "count": 0
+    "count": 0,
+    "productRoute": "straight-cut-blazer"
   },
   {
     "name": "Cropped hooded jacket",
@@ -29,7 +32,8 @@
     "type": "sweatshirts",
     "liked": false,
     "link": "https://i.postimg.cc/K8gYrF6Q/pink-hoodie.png",
-    "count": 0
+    "count": 0,
+    "productRoute": "cropped-hooded-jacket"
   },
   {
     "name": "V-neck cotton dress",
@@ -37,7 +41,8 @@
     "type": "dresses",
     "liked": false,
     "link": "https://i.postimg.cc/LXm6pPn0/red-dress.png",
-    "count": 0
+    "count": 0,
+    "productRoute": "v-neck-cotton-dress"
   },
   {
     "name": "Cotton shirt",
@@ -45,7 +50,8 @@
     "type": "shirts",
     "liked": false,
     "link": "https://i.postimg.cc/1XtmgZ0G/squares-shirt.png",
-    "count": 0
+    "count": 0,
+    "productRoute": "cotton-shirt"
   },
   {
     "name": "Linen T-shirt",
@@ -53,7 +59,8 @@
     "type": "tops",
     "liked": false,
     "link": "https://i.postimg.cc/90nWZN1v/white-tshirt.png",
-    "count": 0
+    "count": 0,
+    "productRoute": "linen-t-shirt"
   },
   {
     "name": "Knitted cardigan",
@@ -61,7 +68,8 @@
     "type": "cardigans",
     "liked": false,
     "link": "https://i.postimg.cc/xTXjnn1Y/yellow-cardigan.png",
-    "count": 0
+    "count": 0,
+    "productRoute": "knitted-cardigan"
   },
   {
     "name": "Pleated skirt",
@@ -69,6 +77,7 @@
     "type": "skirts",
     "liked": false,
     "link": "https://i.postimg.cc/2SvzLGWK/yellow-skirt.png",
-    "count": 0
+    "count": 0,
+    "productRoute": "pleated-skirt"
   }
 ]

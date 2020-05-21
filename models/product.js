@@ -9,6 +9,9 @@ const Product = mongoose.model(
     liked: { type: Boolean, required: true },
     link: { type: String, required: true },
     type: { type: String, required: true },
+    secondLink: { type: String, required: false },
+    count: { type: Number, required: true },
+    productRoute: { type: String, required: true },
   })
 );
 
