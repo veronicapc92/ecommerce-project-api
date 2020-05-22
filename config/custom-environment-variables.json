@@ -1,3 +1,4 @@
 {
-  "jwtPrivateKey": "gosha_jwtPrivateKey"
+  "jwtPrivateKey": "gosha_jwtPrivateKey",
+  "db": "gosha_db"
 }
