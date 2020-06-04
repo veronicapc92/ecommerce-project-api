@@ -27,11 +27,6 @@ async function createProduct(name, price, liked, link, type) {
   await product.save();
 }
 
-// async function addProductType(productId, productType) {
-//   const womenProduct = await WomenProduct.findById(productId);
-//   womenProduct.productType =
-// }
-
 function validateProduct(product) {
   const schema = {
     name: Joi.string().min(1).max(50).required(),
